@@ -1,0 +1,45 @@
+.pi {
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../assets/images/images.jpg");
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background-color: white;
+}
+.customer {
+  color: white;
+  background-attachment: fixed;
+  height: 50vh;
+  background-image: url("../../assets/images/photoworkjpg.jpg");
+}
+.what {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 220%;
+  padding-top: 60px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.doe {
+  font-weight: 500;
+  font-size: 120%;
+  text-align: center;
+  margin-top: 20px;
+}
+.lore-cus {
+  margin-top: 10px;
+  font-size: large;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+@media (max-width: 834px) {
+  .customer {
+    height: 100%;
+  }
+}

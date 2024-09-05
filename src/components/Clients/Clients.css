@@ -1,0 +1,51 @@
+.cli {
+  height: 23vh;
+  align-items: center;
+}
+.clien {
+  margin-bottom: 20px;
+  margin-top: 55px;
+  text-align: center;
+}
+.logo {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  animation: scroll infinite 30s linear;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 834px) {
+  .logo {
+    width: auto;
+    gap: 10px;
+  }
+  .cli {
+    width: auto;
+  }
+  .downl {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .downl:hover {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .do {
+    width: 90%;
+  }
+  .word {
+    gap: 5%;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+  }
+}

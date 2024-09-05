@@ -1,0 +1,185 @@
+.section6 {
+  color: white;
+  background-color: black;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section6 h2 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 100;
+  padding-top: 70px;
+}
+.section6 p {
+  text-align: center;
+  font-weight: 100;
+  margin-top: 30px;
+}
+
+.product-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.product-section div {
+  width: calc(100% / 4);
+  cursor: pointer;
+  position: relative;
+}
+.product-section div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.product-section div:hover .im1 {
+  background-color: transparent;
+  position: absolute;
+  opacity: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-section div:hover .im2 {
+  background-color: transparent;
+  position: absolute;
+  opacity: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-section div:hover .im3 {
+  background-color: transparent;
+  position: absolute;
+  opacity: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-section div:hover .im4 {
+  background-color: transparent;
+  position: absolute;
+  opacity: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-section div:hover .im5 {
+  background-color: transparent;
+  position: absolute;
+  opacity: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-section div:hover .im6 {
+  background-color: transparent;
+  position: absolute;
+  opacity: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-section div:hover .im7 {
+  background-color: transparent;
+  position: absolute;
+  opacity: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-section div:hover .im8 {
+  background-color: transparent;
+  position: absolute;
+  opacity: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-section div:hover .im9 {
+  background-color: transparent;
+  position: absolute;
+  opacity: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-section div:hover .im10 {
+  background-color: transparent;
+  position: absolute;
+  opacity: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.im1,
+.im2,
+.im3,
+.im4,
+.im5,
+.im6,
+.im7,
+.im8,
+.im9,
+.im10 {
+  color: white;
+  opacity: 0;
+}
+
+@media (max-width: 834px) {
+  .section6 {
+    height: auto;
+  }
+  .product-section div {
+    width: calc(100% / 1);
+  }
+}

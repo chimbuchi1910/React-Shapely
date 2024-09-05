@@ -1,0 +1,38 @@
+.parent-div {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  font-family: sans-serif;
+  color: gray;
+  align-content: center;
+}
+
+.parent-div-home-shop {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  margin-left: auto;
+  margin-right: 4px;
+}
+
+.parent {
+  margin-top: 20px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.sharply {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: xx-large;
+}
+
+.i {
+  margin-left: auto;
+  margin-right: auto;
+  color: blue;
+}
