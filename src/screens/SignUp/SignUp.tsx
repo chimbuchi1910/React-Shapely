@@ -41,8 +41,9 @@ const SignUp = () => {
       )
       .then((response: any) => {
         console.log(response.data);
-        localStorage.setItem;
-        navigate("./");
+        localStorage.setItem("userId", response.data._id);
+        localStorage.setItem("firstName", response.data.firstName);
+        navigate("/Login");
         setLoading(false);
         if (response.data) {
           setSuccessMsg("Signup Successful");

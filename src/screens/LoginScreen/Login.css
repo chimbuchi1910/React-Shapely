@@ -1,3 +1,13 @@
-.login {
+/* .login {
   margin-top: 150px;
+} */
+/* .divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+} */
+.but {
+  width: 100%;
 }
